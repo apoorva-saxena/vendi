@@ -108,31 +108,40 @@ a:hover, a:focus, a:active, a:visited {
 
 
 .hero-header {
-	background: #016cc7;
+	background: #E4FFFE;
 	min-height: 600px;
 	padding: 5em;
 	color: #fff;
 }
 .hero-header h1 {
 	margin: 1em 0 0 0;
+    color: #9166F5;
 }
 .hero-header h4 {
 	font-weight: normal;
 	opacity: 0.6;
     letter-spacing: 1px;
     margin: 2em 0;
+    color: #FE6893;
 }
 .hero-header .logo {
-	max-width: 180px;
+	max-width: 300px;
+    margin-top: -80px;
 }
 .hero-header .btn {
-	margin-top: 3em;
+	margin-top: 30px;
 }
 .hero-header .rocket {
 	max-width: 100%;
+    margin-top: 90px;
+}
+
+.vending-items {
+    max-height: 700px;
+
 }
 .me-row {
-	padding: 30px 0;
+	/* padding: 0 0 30px 0; */
 }
 .row-title {
 	font-weight: 400;
@@ -183,8 +192,23 @@ a span.ti-twitter-alt {
 	color: #4099ff;
 }
 
+.implementation-plan {
+    padding-top: 30px;
+}
+
+.vending-machine {
+    max-width: 418px;
+}
+
+.contact-info {
+    text-align: center;
+}
 .tickets {
-	background-color: #fcd93b;
+	background-color: #B4E055;
+}
+
+.tickets-benefit {
+    background-color: #FAB439;
 }
 .tickets .price {
 	font-size: 4em;
@@ -215,6 +239,45 @@ a span.ti-twitter-alt {
 	font-weight: 600;
 }
 
+/* // test how to */
+.how-section1{
+    margin-top:-15%;
+    padding: 10%;
+}
+.how-section1 h4{
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 .subheading{
+    color: #3931af;
+    font-size: 20px;
+}
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+    margin-top: 20px;
+}
+.how-img img{
+    width: 100%;
+}
+/* // test how to end */
+
+.header-benefits {
+    color:#9168F5;
+}
+
+.text-benefits {
+    color: #55AEB5;
+}
+
+.align-center {
+    text-align: center;
+}
 
 .footer {
     background-color: #2a2a2a;
