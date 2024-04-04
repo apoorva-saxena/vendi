@@ -133,9 +133,10 @@ a:hover, a:focus, a:active, a:visited {
 }
 .hero-header .rocket {
 	max-width: 100%;
-    margin-top: 90px;
 }
-
+.space {
+    padding: 0 40px;
+}
 .vending-items {
     max-height: 700px;
 
@@ -362,6 +363,10 @@ ul.footer-menu li a:hover {
     animation-name: bounce; 
 }
 
+.description {
+    color: #FAB437
+}
+
 /* ========================================
     Custom Media Queries
 ======================================== */
@@ -372,7 +377,7 @@ ul.footer-menu li a:hover {
     .hero-header {
         padding: 3em 1em 1em 1em;
         text-align: center;
-        max-height: 550px;
+        max-height: 820px;
     }
     .speaker .feature {
         width: 100%;
@@ -415,4 +420,17 @@ ul.footer-menu li a:hover {
         margin-right: 9px;
         margin-left: 0px;
     }
+}
+
+
+@media (min-width: 1199px) {
+    .speaker .feature {
+        width: 49%;
+        margin-right: 9px;
+        margin-left: 0px;
+    }
+}
+
+
+
 }
