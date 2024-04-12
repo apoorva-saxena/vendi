@@ -2,7 +2,7 @@
 
 Vendi is now live! Check it out at the link below:
 
-[![Vendi](/img/website-link.png "Visit Vendi")](https://apoorva-saxena.github.io/vendi/)
+[Vendi](/img/website-link.png "Visit Vendi")](https://apoorva-saxena.github.io/vendi/)
 
 ## Technology Stack
 Vendi was built using a combination of modern and robust technologies:
